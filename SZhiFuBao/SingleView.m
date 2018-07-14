@@ -50,7 +50,7 @@
     switch (gesture.state) {
             //移动前
         case UIGestureRecognizerStateBegan:
-            if ([self.delegate respondsToSelector:@selector(endMoveViewAction:)]) {
+            if ([self.delegate respondsToSelector:@selector(beginMoveAction:)]) {
                 _label.textColor = [UIColor redColor];
                 [self.delegate beginMoveAction:self.tagid];
             }

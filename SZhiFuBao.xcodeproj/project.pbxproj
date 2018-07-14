@@ -16,6 +16,7 @@
 		CF09AA4C20F74F69007879BC /* SZhiFuBaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09AA4B20F74F69007879BC /* SZhiFuBaoTests.m */; };
 		CF09AA5720F74F69007879BC /* SZhiFuBaoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09AA5620F74F69007879BC /* SZhiFuBaoUITests.m */; };
 		CF09AA6620F74FC0007879BC /* SingleView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09AA6520F74FC0007879BC /* SingleView.m */; };
+		CF09AAAA20F9B843007879BC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09AAA920F9B843007879BC /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		CF09AA5820F74F69007879BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF09AA6420F74FC0007879BC /* SingleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleView.h; sourceTree = "<group>"; };
 		CF09AA6520F74FC0007879BC /* SingleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleView.m; sourceTree = "<group>"; };
+		CF09AAA820F9B843007879BC /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CF09AAA920F9B843007879BC /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				CF09AA3620F74F67007879BC /* ViewController.m */,
 				CF09AA6420F74FC0007879BC /* SingleView.h */,
 				CF09AA6520F74FC0007879BC /* SingleView.m */,
+				CF09AAA820F9B843007879BC /* DetailViewController.h */,
+				CF09AAA920F9B843007879BC /* DetailViewController.m */,
 				CF09AA3820F74F67007879BC /* Main.storyboard */,
 				CF09AA3B20F74F69007879BC /* Assets.xcassets */,
 				CF09AA3D20F74F69007879BC /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF09AAAA20F9B843007879BC /* DetailViewController.m in Sources */,
 				CF09AA6620F74FC0007879BC /* SingleView.m in Sources */,
 				CF09AA3720F74F67007879BC /* ViewController.m in Sources */,
 				CF09AA4220F74F69007879BC /* main.m in Sources */,
