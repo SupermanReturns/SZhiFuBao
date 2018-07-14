@@ -15,6 +15,7 @@
 		CF09AA4220F74F69007879BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09AA4120F74F69007879BC /* main.m */; };
 		CF09AA4C20F74F69007879BC /* SZhiFuBaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09AA4B20F74F69007879BC /* SZhiFuBaoTests.m */; };
 		CF09AA5720F74F69007879BC /* SZhiFuBaoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09AA5620F74F69007879BC /* SZhiFuBaoUITests.m */; };
+		CF09AA6620F74FC0007879BC /* SingleView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09AA6520F74FC0007879BC /* SingleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CF09AA5220F74F69007879BC /* SZhiFuBaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZhiFuBaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF09AA5620F74F69007879BC /* SZhiFuBaoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZhiFuBaoUITests.m; sourceTree = "<group>"; };
 		CF09AA5820F74F69007879BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF09AA6420F74FC0007879BC /* SingleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleView.h; sourceTree = "<group>"; };
+		CF09AA6520F74FC0007879BC /* SingleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				CF09AA3320F74F67007879BC /* AppDelegate.m */,
 				CF09AA3520F74F67007879BC /* ViewController.h */,
 				CF09AA3620F74F67007879BC /* ViewController.m */,
+				CF09AA6420F74FC0007879BC /* SingleView.h */,
+				CF09AA6520F74FC0007879BC /* SingleView.m */,
 				CF09AA3820F74F67007879BC /* Main.storyboard */,
 				CF09AA3B20F74F69007879BC /* Assets.xcassets */,
 				CF09AA3D20F74F69007879BC /* LaunchScreen.storyboard */,
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF09AA6620F74FC0007879BC /* SingleView.m in Sources */,
 				CF09AA3720F74F67007879BC /* ViewController.m in Sources */,
 				CF09AA4220F74F69007879BC /* main.m in Sources */,
 				CF09AA3420F74F67007879BC /* AppDelegate.m in Sources */,
@@ -434,14 +440,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78S8WECG83;
 				INFOPLIST_FILE = SZhiFuBao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ffd.SZhiFuBao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -450,14 +458,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78S8WECG83;
 				INFOPLIST_FILE = SZhiFuBao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ffd.SZhiFuBao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
