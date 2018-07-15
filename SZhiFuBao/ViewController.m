@@ -126,9 +126,6 @@
 
 - (void)moveViewAction:(NSString *)tag gesture:(UILongPressGestureRecognizer *)gesture
 {
-    
-    
-    
     //移动前的tagid值
     NSInteger fromtag = [_singView.tagid intValue];
     //移动后的新坐标
